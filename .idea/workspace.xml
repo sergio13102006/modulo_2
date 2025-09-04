@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27033243-045a-476d-84c3-7263d7aab4ce" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/PythonProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicio_5.py" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicio_5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicio_6.py" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicio_6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicio_7.py" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicio_7.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="27033243-045a-476d-84c3-7263d7aab4ce" name="Changes" comment="listo" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,6 +20,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/sergio13102006/modulo_2.git",
+    "accountId": "69e69e88-1983-464b-9eea-bbe6b43ed3a6"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -83,12 +82,34 @@
       <workItem from="1756383899253" duration="11520000" />
       <workItem from="1756397229267" duration="474000" />
       <workItem from="1756398198611" duration="2240000" />
-      <workItem from="1756985900996" duration="434000" />
+      <workItem from="1756985900996" duration="860000" />
     </task>
+    <task id="LOCAL-00001" summary="ejercicios listos">
+      <option name="closed" value="true" />
+      <created>1756986429709</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1756986429709</updated>
+    </task>
+    <task id="LOCAL-00002" summary="listo">
+      <option name="closed" value="true" />
+      <created>1756986463262</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1756986463262</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ejercicios listos" />
+    <MESSAGE value="listo" />
+    <option name="LAST_COMMIT_MESSAGE" value="listo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
