@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27033243-045a-476d-84c3-7263d7aab4ce" name="Changes" comment="listo" />
+    <list default="true" id="27033243-045a-476d-84c3-7263d7aab4ce" name="Changes" comment="listo">
+      <change afterPath="$PROJECT_DIR$/ejercicio_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejercicio_10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejercicio_11.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejercicio_12.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejercicio_13.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejercicio_14.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejercicio_15.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejercicio_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejercicio_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejercicio_4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejercicio_8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejercicio_9.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +34,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "sergio13102006"
+  }
+}]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/sergio13102006/modulo_2.git",
@@ -30,6 +50,9 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="31YCQJElucFdCeMqh5xc3S8LvSd" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -48,6 +71,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/SENA-5649/PycharmProjects/PythonProject",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -56,6 +80,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\SENA-5649\PycharmProjects\PythonProject" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -82,7 +111,7 @@
       <workItem from="1756383899253" duration="11520000" />
       <workItem from="1756397229267" duration="474000" />
       <workItem from="1756398198611" duration="2240000" />
-      <workItem from="1756985900996" duration="860000" />
+      <workItem from="1756985900996" duration="4592000" />
     </task>
     <task id="LOCAL-00001" summary="ejercicios listos">
       <option name="closed" value="true" />
@@ -100,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756986463262</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="listo">
+      <option name="closed" value="true" />
+      <created>1756986807181</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1756986807181</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
