@@ -5,7 +5,7 @@ def definir_precio(edad):
     :return: retorna el precion ya definido en la función
     """
     precio = 0
-    if 0 < edad <= 80:
+    if 0 < edad < 80:
         if 0 <= edad <= 12:
             precio = 10000
         elif 12 < edad <= 18:
@@ -13,15 +13,14 @@ def definir_precio(edad):
         else:
             precio = 20000
         return precio
-    elif edad > 80:
+    elif edad >= 80:
         print("Tienes una superedad!!")
     else:
         print("No escribiste correctamente tu edad.")
     return None
-
 def definir_descuento(es_estudiante, precio):
     """
-    define si la persona tiene o no descuento
+    define si la persona  tiene o no descuento
     :param es_estudiante:recibe si es estudiante o no
     :param precio: guarda el precio de la boleta dependiendo la edad
     """
@@ -39,19 +38,20 @@ def main():
     """
     depura el codigo
     """
-    edad_str = input("Escribe en números ¿cuál es tu edad? ")
-    try:
-        edad = float(edad_str)
-        precio = definir_precio(edad)
-        if precio is not None:
-            es_estudiante_str = input("Escribe el número 1 si eres estudiante\nescribe el número 0 si no eres estudiante:\n")
-            try:
-                es_estudiante = int(es_estudiante_str)
-                definir_descuento(es_estudiante, precio)
-            except ValueError:
-                print("Entrada no válida para la opción de estudiante. Por favor, ingresa 1 o 0.")
-    except ValueError:
-        print("Entrada no válida para la edad. Por favor, ingresa un número.")
+    while True:
+        edad_str = input("Escribe en números ¿cuál es tu edad? ")
+        try:
+            edad = float(edad_str)
+            precio = definir_precio(edad)
+            if precio is not None:
+                es_estudiante_str = input("Escribe el número 1 si eres estudiante\nescribe el número 0 si no eres estudiante:\n")
+                try:
+                    es_estudiante = int(es_estudiante_str)
+                    definir_descuento(es_estudiante, precio)
+                except ValueError:
+                    print("Entrada no válida para la opción de estudiante. Por favor, ingresa 1 o 0.")
+        except ValueError:
+            print("Entrada no válida para la edad. Por favor, ingresa un número.")
 
 if __name__ == "__main__":
     main()

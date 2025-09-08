@@ -4,20 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27033243-045a-476d-84c3-7263d7aab4ce" name="Changes" comment="listo">
-      <change afterPath="$PROJECT_DIR$/ejercicio_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ejercicio_10.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ejercicio_11.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ejercicio_12.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ejercicio_13.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ejercicio_14.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ejercicio_15.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ejercicio_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ejercicio_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ejercicio_4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ejercicio_8.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ejercicio_9.py" afterDir="false" />
+    <list default="true" id="27033243-045a-476d-84c3-7263d7aab4ce" name="Changes" comment="ejercicios de modulo 2 terminados lsitos para push">
+      <change afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_ejericicio1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicio_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio_15.py" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicio_15.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,18 +28,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "sergio13102006"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;sergio13102006&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/sergio13102006/modulo_2.git",
-    "accountId": "69e69e88-1983-464b-9eea-bbe6b43ed3a6"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/sergio13102006/modulo_2.git&quot;,
+    &quot;accountId&quot;: &quot;69e69e88-1983-464b-9eea-bbe6b43ed3a6&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -60,23 +54,30 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests in test_ejericicio1.py.executor": "Run",
     "Python.dimension.executor": "Run",
     "Python.ejercicio1.executor": "Run",
+    "Python.ejercicio_1.executor": "Run",
+    "Python.ejercicio_15.executor": "Run",
     "Python.ejercicio_5.executor": "Run",
     "Python.ejercicio_6.executor": "Run",
     "Python.ejercicio_7.executor": "Run",
+    "Python.ejercicio_8.executor": "Run",
     "Python.oractiva.executor": "Run",
     "Python.repaso.executor": "Run",
+    "Python.test_ejericicio1.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/SENA-5649/PycharmProjects/PythonProject",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "configurable.group.python.group.settings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -111,7 +112,9 @@
       <workItem from="1756383899253" duration="11520000" />
       <workItem from="1756397229267" duration="474000" />
       <workItem from="1756398198611" duration="2240000" />
-      <workItem from="1756985900996" duration="4592000" />
+      <workItem from="1756985900996" duration="6106000" />
+      <workItem from="1757077291928" duration="1216000" />
+      <workItem from="1757331842676" duration="15395000" />
     </task>
     <task id="LOCAL-00001" summary="ejercicios listos">
       <option name="closed" value="true" />
@@ -137,7 +140,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756986807181</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ejercicios de modulo 2 terminados lsitos para push">
+      <option name="closed" value="true" />
+      <created>1756990983586</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1756990983586</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,26 +157,21 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ejercicios listos" />
     <MESSAGE value="listo" />
-    <option name="LAST_COMMIT_MESSAGE" value="listo" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="ejercicios de modulo 2 terminados lsitos para push" />
+    <option name="LAST_COMMIT_MESSAGE" value="ejercicios de modulo 2 terminados lsitos para push" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonProject$dimension.coverage" NAME="dimension Coverage Results" MODIFIED="1756383419910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/repaso" />
-    <SUITE FILE_PATH="coverage/PythonProject$ejercicio_7.coverage" NAME="ejercicio_7 Coverage Results" MODIFIED="1756400390633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonProject$ejercicio1.coverage" NAME="ejercicio1 Coverage Results" MODIFIED="1755881739353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/repaso" />
     <SUITE FILE_PATH="coverage/PythonProject$oractiva.coverage" NAME="oractiva Coverage Results" MODIFIED="1755876628195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/repaso" />
+    <SUITE FILE_PATH="coverage/PythonProject$ejercicio_8.coverage" NAME="ejercicio_8 Coverage Results" MODIFIED="1756991132096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject$ejercicio_6.coverage" NAME="ejercicio_6 Coverage Results" MODIFIED="1756397693925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject$repaso.coverage" NAME="repaso Coverage Results" MODIFIED="1755692371244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject$ejercicio_7.coverage" NAME="ejercicio_7 Coverage Results" MODIFIED="1756400390633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject$ejercicio1.coverage" NAME="ejercicio1 Coverage Results" MODIFIED="1755881739353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/repaso" />
+    <SUITE FILE_PATH="coverage/PythonProject$ejercicio_15.coverage" NAME="ejercicio_15 Coverage Results" MODIFIED="1756990883820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject$test_ejericicio1.coverage" NAME="test_ejericicio1 Coverage Results" MODIFIED="1757336515483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/PythonProject$.coverage" NAME=" Coverage Results" MODIFIED="1757345425174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject$ejercicio_5.coverage" NAME="ejercicio_5 Coverage Results" MODIFIED="1756393734185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject$ejercicio_1.coverage" NAME="ejercicio_1 Coverage Results" MODIFIED="1757346555824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
