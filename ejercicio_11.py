@@ -1,38 +1,44 @@
 def validar_cedula(cedula_str):
     """
-    Valida una cédula (string) según la regla: la suma de sus dígitos debe ser par.
+    Valida una cédula según la regla: la suma de sus dígitos debe ser par.
+
+    Validaciones:
+    - No vacía
+    - Solo caracteres numéricos
+    - Suma de dígitos par
 
     Args:
-      cedula_str: El número de cédula como una cadena de texto.
+        cedula_str (str): Cédula a validar.
 
     Returns:
-      True si la suma de los dígitos es par, False en caso contrario.
+        bool: True si la cédula es válida, False en caso contrario.
     """
-    suma_digitos = 0
-    # Itera sobre cada caracter del string 'cedula_str'.
-    for caracter in cedula_str:
-        # Convierte cada caracter a entero y lo suma.
-        suma_digitos += int(caracter)
+    # Validación: no vacío
+    if not cedula_str:
+        raise ValueError("La cédula no puede estar vacía.")
 
-    # Comprueba si la suma es par.
-    # El operador '%' (módulo) da el residuo de una división.
-    # Si el residuo de dividir por 2 es 0, el número es par.
-    if suma_digitos % 2 == 0:
-        return True
-    else:
-        return False
+    # Validación: solo números
+    if not cedula_str.isdigit():
+        raise ValueError("La cédula debe contener solo dígitos numéricos.")
+
+    suma_digitos = sum(int(caracter) for caracter in cedula_str)
+
+    return suma_digitos % 2 == 0
 
 
-# --- Programa Principal ---
+def main():
+    while True:
+        cedula_usuario = input("Por favor, ingresa tu número de cédula: ").strip()
 
-# Bucle infinito que se romperá solo cuando la cédula sea válida.
-while True:
-    cedula_usuario = input("Por favor, ingresa tu número de cédula: ")
+        try:
+            if validar_cedula(cedula_usuario):
+                print("Cédula válida. Gracias.")
+                break
+            else:
+                print("Cédula inválida. La suma de los dígitos debe ser un número par. Inténtalo de nuevo.")
+        except ValueError as e:
+            print(f"Error: {e}. Inténtalo de nuevo.")
 
-    # Llama a la función de validación con la entrada del usuario.
-    if validar_cedula(cedula_usuario):
-        print("✅ ¡Cédula válida! Gracias.")
-        # Rompe el bucle si la función devuelve True.
-        break
-    else:
-        print("❌ Cédula inválida. La suma de los dígitos debe ser un número par. Inténtalo de nuevo.")
+
+if __name__ == "__main__":
+    main()

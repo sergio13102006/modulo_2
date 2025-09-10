@@ -1,34 +1,59 @@
 def transponer_con_bucles(matriz):
     """
-    Recibe una matriz y devuelve su transpuesta usando bucles for anidados.
+    Recibe una matriz (lista de listas) y devuelve su transpuesta usando bucles for anidados.
+
+    Validaciones incluidas:
+    - La matriz debe ser una lista de listas.
+    - No puede estar vacía.
+    - Todas las filas deben tener la misma longitud.
+
+    :param matriz: Lista de listas representando la matriz.
+    :return: Matriz transpuesta.
     """
-    # 1. Manejar el caso de una matriz vacía para evitar errores.
+    # Validación: matriz vacía
     if not matriz:
+        print("Advertencia: la matriz está vacía.")
         return []
 
-    # 2. Obtenemos las dimensiones de la matriz original.
-    num_filas_original = len(matriz)
-    num_columnas_original = len(matriz[0])
+    # Validación: todas las filas deben ser listas
+    if not all(isinstance(fila, list) for fila in matriz):
+        raise TypeError("Error: todos los elementos de la matriz deben ser listas.")
 
-    # 3. Creamos una matriz vacía que contendrá el resultado.
+    # Validación: todas las filas deben tener la misma longitud
+    longitudes = [len(fila) for fila in matriz]
+    if len(set(longitudes)) != 1:
+        raise ValueError("Error: todas las filas deben tener la misma cantidad de columnas.")
+
+    num_filas = len(matriz)
+    num_columnas = len(matriz[0])
+
+    # Crear matriz transpuesta
     matriz_transpuesta = []
 
-    # 4. El bucle exterior itera sobre las COLUMNAS de la matriz original.
-    #    Cada iteración de este bucle creará una NUEVA FILA en la transpuesta.
-    for i in range(num_columnas_original):
-
-        # 5. Creamos una lista vacía para la nueva fila que vamos a construir.
+    for i in range(num_columnas):
         nueva_fila = []
-
-        # 6. El bucle interior itera sobre las FILAS de la matriz original.
-        #    Su trabajo es recoger los elementos de una columna.
-        for j in range(num_filas_original):
-            # 7. Añadimos el elemento de la fila 'j' y columna 'i' a nuestra nueva fila.
+        for j in range(num_filas):
             nueva_fila.append(matriz[j][i])
-
-        # 8. Una vez que hemos recorrido toda la columna, añadimos la nueva_fila completa
-        #    a nuestra matriz transpuesta.
         matriz_transpuesta.append(nueva_fila)
 
-    # 9. Devolvemos el resultado final.
     return matriz_transpuesta
+
+
+def main():
+    ejemplo = [
+        [1, 2, 3],
+        [4, 5, 6]
+    ]
+    print("Matriz original:")
+    for fila in ejemplo:
+        print(fila)
+
+    transpuesta = transponer_con_bucles(ejemplo)
+
+    print("\nMatriz transpuesta:")
+    for fila in transpuesta:
+        print(fila)
+
+
+if __name__ == "__main__":
+    main()
