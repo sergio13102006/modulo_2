@@ -37,7 +37,6 @@ def pedir_numero(input_func=input, output_func=print, minimo=None, maximo=None):
             output_func(f"✖️ El número debe ser menor o igual a {maximo}.")
             continue
 
-        # Si todo está bien
         return numero
 
 
