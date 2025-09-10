@@ -16,8 +16,7 @@ def definir_precio(edad):
     elif edad >= 80:
         print("Tienes una superedad!!")
     else:
-        print("No escribiste correctamente tu edad.")
-    return None
+     return None
 def definir_descuento(es_estudiante, precio):
     """
     define si la persona  tiene o no descuento

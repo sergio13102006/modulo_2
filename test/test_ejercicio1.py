@@ -8,10 +8,11 @@ class TestEjercicio1(unittest.TestCase):
     def test_definir_edad_adulto(self):
         self.assertEqual(definir_precio(30),20000)
     def test_definir_superedad(self):
-        self.assertIsNone(definir_precio(80))
-    def test_edad_invalida(self):
+        self.assertIsNone(definir_precio(80),25000)
+    def test_edad_invalida_negativos(self):
         self.assertIsNone(definir_precio(-5))
-    def test_negatios(self):
-        self.assertEqual(definir_precio(-10),-10)
+        self.assertIsNone(definir_precio(-10))
+    def test_fuera_de_rango(self):
+        self.assertIsNone(definir_precio(100))
 if __name__ == '__main__':
     unittest.main()
