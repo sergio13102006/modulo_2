@@ -1,43 +1,47 @@
-def validar_contasena():
+def pedir_numero(input_func=input, output_func=print, minimo=None, maximo=None):
     """
-    verifica que la contraseña cumpla con todos los requisitos
-    :return:
+    Pide un número entero al usuario con validaciones:
+    - No vacío
+    - Solo números enteros
+    - No negativos (opcional)
+    - No decimales
+    - No mezcla de letras y números
+    - Dentro de los límites (si se indican minimo y maximo)
     """
-    contrasena = ""
-    con = ''
+    while True:
+        entrada = input_func("Digite un número: ").strip()
 
-    while not (len(con) >= 8 and any(char.isupper() for char in con) and any(
-            char.isdigit() for char in con)):
-        contrasena = str(input("Define tu contraseña: "))
-        con = contrasena
+        # Validar vacío
+        if entrada == "":
+            output_func("✖️ No puede dejar el campo vacío.")
+            continue
 
-        if len(con) < 8:
-            validacion8 = "✖️"
-        else:
-            validacion8 = "✔️"
+        # Validar si es entero (sin letras, sin decimales, sin símbolos)
+        if not entrada.isdigit() and not (entrada.startswith("-") and entrada[1:].isdigit()):
+            output_func("✖️ Debe digitar solo números enteros, sin letras, decimales ni símbolos.")
+            continue
 
-        if not any(c.isupper() for c in con):
-            validacionMayus = "✖️"
-        else:
-            validacionMayus = "✔️"
+        # Convertir a número
+        numero = int(entrada)
 
-        if not any(c.isdigit() for c in con):
-            validacionnum = "✖️"
-        else:
-            validacionnum = "✔️"
+        # Validar negativo
+        if numero < 0:
+            output_func("✖️ No se permiten números negativos.")
+            continue
 
-        # You also need to define validacionEspacio. I've added a check for it.
-        if " " in contrasena:
-            validacionEspacio = "✖️"
-        else:
-            validacionEspacio = "✔️"
+        # Validar límites
+        if minimo is not None and numero < minimo:
+            output_func(f"✖️ El número debe ser mayor o igual a {minimo}.")
+            continue
+        if maximo is not None and numero > maximo:
+            output_func(f"✖️ El número debe ser menor o igual a {maximo}.")
+            continue
 
-        print(
-            f"{validacion8}Mínimo 8 caracteres de longitud: \n"
-            f"{validacionMayus}Contiene al menos una letra mayúscula: \n"
-            f"{validacionnum}Contiene al menos un número: \n"
-            f"{validacionEspacio}No debe contener espacios: "
-        )
-    print(f"Su contraseña ha sido exitosamente guardada. ✔️")
+        # Si todo está bien
+        return numero
+
+
 if __name__ == "__main__":
-    validar_contasena()
+    # Ejemplo de uso
+    n = pedir_numero(minimo=1, maximo=10)
+    print(f"✔️ Número válido ingresado: {n}")
